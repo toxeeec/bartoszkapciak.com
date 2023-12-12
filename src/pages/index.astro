@@ -1,5 +1,32 @@
 ---
 import BaseLayout from "../layouts/base.astro";
+import { Icon } from "astro-icon";
 ---
 
-<BaseLayout title="Bartosz Kapciak" />
+<BaseLayout title="Bartosz Kapciak">
+	<main class="flex h-full flex-col items-center justify-center gap-8">
+		<a
+			href="mailto:bartosz.kapciak@gmail.com"
+			class="text-2xl font-light tracking-wider decoration-from-font underline-offset-2 outline-2 outline-offset-4 hover:underline focus:outline sm:text-4xl sm:font-extralight"
+			aria-label="bartosz.kapciak@gmail.com"
+		>
+			bartosz.kapciak@gmail.com
+		</a>
+		<div class="flex gap-12">
+			<a
+				href="https://github.com/toxeeec"
+				class="flex aspect-square w-16 items-center justify-center rounded-2xl bg-neutral-50 outline-2 outline-offset-4 hover:opacity-90 focus:outline sm:w-24 sm:rounded-3xl"
+				aria-label="LinkedIn"
+			>
+				<Icon name="github" class="w-2/3 fill-neutral-900" />
+			</a>
+			<a
+				href="https://www.linkedin.com/in/bartosz-kapciak/"
+				class="flex aspect-square w-16 items-center justify-center rounded-2xl bg-neutral-50 outline-2 outline-offset-4 hover:opacity-90 focus:outline sm:w-24 sm:rounded-3xl"
+				aria-label="GitHub"
+			>
+				<Icon name="linkedin" class="w-2/3 fill-neutral-900" />
+			</a>
+		</div>
+	</main>
+</BaseLayout>
