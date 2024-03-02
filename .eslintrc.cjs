@@ -15,7 +15,7 @@ module.exports = defineConfig({
 		"prettier",
 	],
 	env: { node: true },
-	ignorePatterns: ["!.prettierrc.mjs"],
+	ignorePatterns: ["!.lintstagedrc.mjs", "!.prettierrc.mjs"],
 	plugins: ["@typescript-eslint"],
 	parser: "@typescript-eslint/parser",
 	parserOptions: {

@@ -3,5 +3,5 @@
 	"compillerOptions": {
 		"allowJs": true
 	},
-	"include": [".eslintrc.cjs", ".prettierrc.mjs"]
+	"include": [".eslintrc.cjs", ".lintstagedrc.mjs", ".prettierrc.mjs"]
 }
