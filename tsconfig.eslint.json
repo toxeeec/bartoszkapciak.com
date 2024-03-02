@@ -1,0 +1,7 @@
+{
+	"extends": "./tsconfig.json",
+	"compillerOptions": {
+		"allowJs": true
+	},
+	"include": [".eslintrc.cjs", ".prettierrc.mjs"]
+}
