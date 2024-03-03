@@ -1,8 +1,41 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="Full Stack Developer | Go, Rust, TypeScript, React" />
+		<title>Bartosz Kapciak</title>
 	</head>
-	<body>hello world</body>
+	<body class="h-dvh bg-neutral-900 text-neutral-50">
+		<main class="flex h-full flex-col items-center justify-center gap-6 sm:gap-8">
+			<a
+				href="mailto:bartosz.kapciak@gmail.com"
+				class="text-2xl font-extralight tracking-wider decoration-from-font underline-offset-2 outline-2 outline-offset-4 hover:underline focus:outline sm:text-4xl sm:tracking-wider"
+				aria-label="bartosz.kapciak@gmail.com"
+			>
+				bartosz.kapciak@gmail.com
+			</a>
+			<div class="flex gap-8 sm:gap-12">
+				<a
+					href="https://github.com/toxeeec"
+					class="grid size-16 place-items-center rounded-2xl bg-neutral-50 text-neutral-900 outline-2 outline-offset-4 hover:opacity-90 focus:outline sm:size-24 sm:rounded-3xl"
+					aria-label="LinkedIn"
+				>
+					<Icon name="github" class="size-2/3 text-neutral-900" />
+				</a>
+				<a
+					href="https://www.linkedin.com/in/bartosz-kapciak/"
+					class="grid size-16 place-items-center rounded-2xl bg-neutral-50 text-neutral-900 outline-2 outline-offset-4 hover:opacity-90 focus:outline sm:size-24 sm:rounded-3xl"
+					aria-label="GitHub"
+				>
+					<Icon name="linkedin" class="size-2/3" />
+				</a>
+			</div>
+		</main>
+	</body>
 </html>

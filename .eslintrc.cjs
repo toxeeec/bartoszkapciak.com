@@ -33,4 +33,7 @@ module.exports = defineConfig({
 			},
 		},
 	],
+	rules: {
+		"@typescript-eslint/triple-slash-reference": "off",
+	},
 });
