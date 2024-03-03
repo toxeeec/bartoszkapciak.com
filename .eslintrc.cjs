@@ -8,6 +8,7 @@ const { defineConfig } = require("eslint-define-config");
 module.exports = defineConfig({
 	extends: [
 		"eslint:recommended",
+		"plugin:tailwindcss/recommended",
 		"plugin:@typescript-eslint/strict-type-checked",
 		"plugin:@typescript-eslint/stylistic-type-checked",
 		"plugin:astro/jsx-a11y-recommended",
